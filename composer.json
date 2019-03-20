@@ -1,6 +1,6 @@
 {
     "name": "cakephp-extended/plugin-app-installer",
-    "description": "Install CakePHP 3.0+ your plugins in plugins folder inside your App",
+    "description": "Install your CakePHP 3.0+ plugins in plugins folder inside your App",
     "type": "composer-installer",
     "license": "MIT",
     "authors": [
