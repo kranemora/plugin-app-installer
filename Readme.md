@@ -2,12 +2,11 @@
 
 Install your CakePHP 3.0+ plugins in plugins folder inside your App
 
-La consola Bake de CakePHP 3+ genera plugins en la carpeta /plugins
-de la raiz del sitio; pero cuando este plugin se instalan
-a través de composer, son alojados en la carpeta vendor.
+La consola Bake de CakePHP genera plugins en la carpeta /plugins del sitio;
+pero cuando se instalan a través de composer, los aloja en la carpeta /vendor.
 
-Este plugin permite instalar los plugins de CakePHP 3+ en conformidad
-con lo generado por la consola Bake.
+Este plugin instala cualquier plugin que tenga asignado
+el tipo "cakephp-app-plugin" en la carpeta /plugins del sitio.
 
 ## Installation
 
