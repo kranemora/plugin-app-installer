@@ -13,6 +13,11 @@
             "Custom\\Composer\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Custom\\Test\\Composer\\": "tests"
+        }
+    },
     "extra": {
         "class": "Custom\\Composer\\Installer\\PluginAppInstaller"
     }

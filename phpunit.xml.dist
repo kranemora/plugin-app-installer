@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit
+    colors="true"
+    processIsolation="false"
+    stopOnFailure="false"
+    >
+    <testsuites>
+        <testsuite name="plugin-app-installer">
+            <directory>tests/TestCase</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
